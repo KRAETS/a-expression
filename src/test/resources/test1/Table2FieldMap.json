@@ -1,0 +1,16 @@
+{
+"tables":
+        [
+          		{
+ 	                "name" : "EventTable1",
+                    "fields":  [ {"name": "f1"},{"name":"f2"} ],
+                    "durations": [ {"start_time": "2013-05-30T09:00:00", "end_time": "2013-05-30T10:00:00"}, {"start_time": "2013-05-30T11:00:00", "end_time": "2013-06-01T10:00:00"}, {"start_time": "2013-07-02T10:00:00", "end_time": "2013-07-05T10:00:00"}]
+  				},
+  				{
+ 	                "name" : "EventTable2",
+ 	                "fields" : [ {"name": "f3"},{"name":"f4"},{"name":"f5"}],
+ 	               "durations": [ {"start_time": "2013-05-30T09:30:00", "end_time": "2013-05-30T10:30:00"}, {"start_time": "2013-05-30T11:30:00", "end_time": "2013-06-01T10:30:00"}, {"start_time": "2013-07-02T10:30:00", "end_time": "2013-07-05T10:30:00"}]
+  			
+  				}
+  		]		
+}

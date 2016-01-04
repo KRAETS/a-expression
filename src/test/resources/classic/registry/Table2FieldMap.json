@@ -1,0 +1,1550 @@
+{
+  "tables": [
+    {
+      "name": "llcysa_addc",
+      "fields": [
+        {
+          "name": "account_name"
+        },
+        {
+          "name": "client_address"
+        },
+        {
+          "name": "computername"
+        },
+        {
+          "name": "eventcode"
+        },
+        {
+          "name": "eventtype"
+        },
+        {
+          "name": "keywords"
+        },
+        {
+          "name": "logname"
+        },
+        {
+          "name": "logoff"
+        },
+        {
+          "name": "logon"
+        },
+        {
+          "name": "logon_id"
+        },
+        {
+          "name": "message"
+        },
+        {
+          "name": "opcode"
+        },
+        {
+          "name": "recordnumber"
+        },
+        {
+          "name": "security_id"
+        },
+        {
+          "name": "service_name"
+        },
+        {
+          "name": "source_network_address"
+        },
+        {
+          "name": "sourcename"
+        },
+        {
+          "name": "taskcategory"
+        },
+        {
+          "name": "time"
+        },
+        {
+          "name": "type"
+        },
+        {
+          "name": "user"
+        },
+        {
+          "name": "user_ip"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_agg",
+      "fields": [
+        {
+          "name": "agg_type"
+        },
+        {
+          "name": "dnp"
+        },
+        {
+          "name": "dst_city"
+        },
+        {
+          "name": "dst_country_code"
+        },
+        {
+          "name": "dst_country_name"
+        },
+        {
+          "name": "dst_ip"
+        },
+        {
+          "name": "dst_latitude"
+        },
+        {
+          "name": "dst_longitude"
+        },
+        {
+          "name": "dst_mac"
+        },
+        {
+          "name": "dst_port"
+        },
+        {
+          "name": "dst_region_name"
+        },
+        {
+          "name": "dst_time_zone"
+        },
+        {
+          "name": "eth_code"
+        },
+        {
+          "name": "file"
+        },
+        {
+          "name": "flow"
+        },
+        {
+          "name": "fragment"
+        },
+        {
+          "name": "icmp_code"
+        },
+        {
+          "name": "icmp_code_name"
+        },
+        {
+          "name": "icmp_type"
+        },
+        {
+          "name": "icmp_type_name"
+        },
+        {
+          "name": "keys"
+        },
+        {
+          "name": "np"
+        },
+        {
+          "name": "np_long"
+        },
+        {
+          "name": "octets"
+        },
+        {
+          "name": "packets"
+        },
+        {
+          "name": "pl_octets"
+        },
+        {
+          "name": "src_city"
+        },
+        {
+          "name": "src_country_code"
+        },
+        {
+          "name": "src_country_name"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_latitude"
+        },
+        {
+          "name": "src_longitude"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "src_port"
+        },
+        {
+          "name": "src_region_name"
+        },
+        {
+          "name": "src_time_zone"
+        },
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_agg5m",
+      "fields": [
+        {
+          "name": "agg_type"
+        },
+        {
+          "name": "dnp"
+        },
+        {
+          "name": "dst_city"
+        },
+        {
+          "name": "dst_country_code"
+        },
+        {
+          "name": "dst_country_name"
+        },
+        {
+          "name": "dst_ip"
+        },
+        {
+          "name": "dst_latitude"
+        },
+        {
+          "name": "dst_longitude"
+        },
+        {
+          "name": "dst_mac"
+        },
+        {
+          "name": "dst_port"
+        },
+        {
+          "name": "dst_region_name"
+        },
+        {
+          "name": "dst_time_zone"
+        },
+        {
+          "name": "eth_code"
+        },
+        {
+          "name": "file"
+        },
+        {
+          "name": "flow"
+        },
+        {
+          "name": "fragment"
+        },
+        {
+          "name": "icmp_code"
+        },
+        {
+          "name": "icmp_code_name"
+        },
+        {
+          "name": "icmp_type"
+        },
+        {
+          "name": "icmp_type_name"
+        },
+        {
+          "name": "keys"
+        },
+        {
+          "name": "np"
+        },
+        {
+          "name": "np_long"
+        },
+        {
+          "name": "octets"
+        },
+        {
+          "name": "packets"
+        },
+        {
+          "name": "pl_octets"
+        },
+        {
+          "name": "src_city"
+        },
+        {
+          "name": "src_country_code"
+        },
+        {
+          "name": "src_country_name"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_latitude"
+        },
+        {
+          "name": "src_longitude"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "src_port"
+        },
+        {
+          "name": "src_region_name"
+        },
+        {
+          "name": "src_time_zone"
+        },
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_dhcp",
+      "fields": [
+        {
+          "name": "dhcp_command"
+        },
+        {
+          "name": "src_hostname"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_dynnac",
+      "fields": [
+        {
+          "name": "fullname"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "jack_id"
+        },
+        {
+          "name": "message"
+        },
+        {
+          "name": "nac_type"
+        },
+        {
+          "name": "packetsIn"
+        },
+        {
+          "name": "packetsOut"
+        },
+        {
+          "name": "plate_id"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "port_num"
+        },
+        {
+          "name": "port_slot"
+        },
+        {
+          "name": "room"
+        },
+        {
+          "name": "root_mac"
+        },
+        {
+          "name": "session_pair"
+        },
+        {
+          "name": "snmp_name"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "time"
+        },
+        {
+          "name": "user"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_nac",
+      "fields": [
+        {
+          "name": "bytes_in"
+        },
+        {
+          "name": "bytes_out"
+        },
+        {
+          "name": "connect"
+        },
+        {
+          "name": "disconnect"
+        },
+        {
+          "name": "load_in"
+        },
+        {
+          "name": "load_out"
+        },
+        {
+          "name": "location"
+        },
+        {
+          "name": "peak_load_in"
+        },
+        {
+          "name": "peak_load_out"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "user"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_nessus",
+      "fields": [
+        {
+          "name": "cve"
+        },
+        {
+          "name": "host_fqdn"
+        },
+        {
+          "name": "operating_system"
+        },
+        {
+          "name": "pluginName"
+        },
+        {
+          "name": "risk_factor"
+        },
+        {
+          "name": "severity"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "start_time"
+        },
+        {
+          "name": "vuln_publication_date"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_netflow",
+      "fields": [
+        {
+          "name": "da"
+        },
+        {
+          "name": "da_city"
+        },
+        {
+          "name": "da_country_code"
+        },
+        {
+          "name": "da_country_name"
+        },
+        {
+          "name": "da_latitude"
+        },
+        {
+          "name": "da_longitude"
+        },
+        {
+          "name": "da_region_name"
+        },
+        {
+          "name": "da_time_zone"
+        },
+        {
+          "name": "dp"
+        },
+        {
+          "name": "flg"
+        },
+        {
+          "name": "ibyt"
+        },
+        {
+          "name": "ipkt"
+        },
+        {
+          "name": "obyt"
+        },
+        {
+          "name": "opkt"
+        },
+        {
+          "name": "pr"
+        },
+        {
+          "name": "sa"
+        },
+        {
+          "name": "sa_city"
+        },
+        {
+          "name": "sa_country_code"
+        },
+        {
+          "name": "sa_country_name"
+        },
+        {
+          "name": "sa_latitude"
+        },
+        {
+          "name": "sa_longitude"
+        },
+        {
+          "name": "sa_region_name"
+        },
+        {
+          "name": "sa_time_zone"
+        },
+        {
+          "name": "sp"
+        },
+        {
+          "name": "te"
+        },
+        {
+          "name": "ts"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_accellion",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_addc",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_atc_dns",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_av",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "dest_ip"
+        },
+        {
+          "name": "dest_mac"
+        },
+        {
+          "name": "dest_nt_host"
+        },
+        {
+          "name": "os"
+        },
+        {
+          "name": "os_build"
+        },
+        {
+          "name": "os_version"
+        },
+        {
+          "name": "severity"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "src_nt_host"
+        },
+        {
+          "name": "src_user"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_bacs",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_bes",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_bit9",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "cat"
+        },
+        {
+          "name": "fileName"
+        },
+        {
+          "name": "policy"
+        },
+        {
+          "name": "src"
+        },
+        {
+          "name": "srcHostName"
+        },
+        {
+          "name": "srcProcess"
+        },
+        {
+          "name": "usrName"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_cisco",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "action"
+        },
+        {
+          "name": "dest_ip"
+        },
+        {
+          "name": "dest_port"
+        },
+        {
+          "name": "protocol"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_port"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_dev",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_devaddc",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_devbit9",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_devllencrypt",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_devsmtp",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_dhcp",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_dib",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_div4",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_dns",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "dns_ip"
+        },
+        {
+          "name": "domain"
+        },
+        {
+          "name": "fqdn"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "resolved_ip"
+        },
+        {
+          "name": "src_ip"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_esx",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_exchange",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_extweb",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "bytes"
+        },
+        {
+          "name": "clientip"
+        },
+        {
+          "name": "file"
+        },
+        {
+          "name": "method"
+        },
+        {
+          "name": "referer"
+        },
+        {
+          "name": "root"
+        },
+        {
+          "name": "status"
+        },
+        {
+          "name": "uri_path"
+        },
+        {
+          "name": "useragent"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_fe",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_fireeye",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_fschange",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_ftp",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_g46",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_g52",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_grp43",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_history",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_idm",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_ips",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_iptables",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_kiosk",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_kmr",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_len_d10",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_len_fw",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_llan_fw",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_llencrypt",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_lllistserv",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_llrsa_summary",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_llsmtp_summary1",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_llvirus_summary",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_llwww",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_mad",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_main",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_nac",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_nagios",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_nvd",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_nw",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_nw_summary",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_os",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_pan_fw",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "dst_ip"
+        },
+        {
+          "name": "dst_zone"
+        },
+        {
+          "name": "nat_dst_ip"
+        },
+        {
+          "name": "nat_src_ip"
+        },
+        {
+          "name": "proto"
+        },
+        {
+          "name": "src_interface"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_zone"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_pastemon",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_pki",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "host"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "request_url"
+        },
+        {
+          "name": "src_ip"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_qapki",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_remedy",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_router",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_rsa",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_rsa_summary",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_seccenter",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_slb",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_smtp",
+      "fields": [
+        {
+          "name": "cmd"
+        },
+        {
+          "name": "ip"
+        },
+        {
+          "name": "subject"
+        },
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_sos",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_spam",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_ssdfac",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_sshlogs",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_strm",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_summary",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_summary_fw",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_summary_ww",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_suricata",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_switches",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_syslog",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_timeline",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_tstorm",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_va",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_voip",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_vpn",
+      "fields": [
+        {
+          "name": "_time"
+        },
+        {
+          "name": "host"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "remote_ip"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "user_name"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_splunk_webwasher",
+      "fields": [
+        {
+          "name": "_time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_suricata",
+      "fields": [
+        {
+          "name": "class"
+        },
+        {
+          "name": "dest_ip"
+        },
+        {
+          "name": "dest_port"
+        },
+        {
+          "name": "message"
+        },
+        {
+          "name": "policy_id"
+        },
+        {
+          "name": "policy_message"
+        },
+        {
+          "name": "policy_tag"
+        },
+        {
+          "name": "priority"
+        },
+        {
+          "name": "protocol"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_port"
+        },
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_usersession",
+      "fields": [
+        {
+          "name": "account"
+        },
+        {
+          "name": "event_type"
+        },
+        {
+          "name": "fullname"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "prov"
+        },
+        {
+          "name": "remote_ip"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "src_mac"
+        },
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "llcysa_webwasher",
+      "fields": [
+        {
+          "name": "addc_user"
+        },
+        {
+          "name": "application_name"
+        },
+        {
+          "name": "auth_user"
+        },
+        {
+          "name": "block_res"
+        },
+        {
+          "name": "block_res_detail"
+        },
+        {
+          "name": "bytes_from_client"
+        },
+        {
+          "name": "bytes_to_client"
+        },
+        {
+          "name": "categories"
+        },
+        {
+          "name": "elapsed"
+        },
+        {
+          "name": "mac_dhcp"
+        },
+        {
+          "name": "media_type"
+        },
+        {
+          "name": "referer"
+        },
+        {
+          "name": "referer_bareurl"
+        },
+        {
+          "name": "referer_domain"
+        },
+        {
+          "name": "referer_fqdn"
+        },
+        {
+          "name": "referer_path"
+        },
+        {
+          "name": "referer_query"
+        },
+        {
+          "name": "req_bareurl"
+        },
+        {
+          "name": "req_domain"
+        },
+        {
+          "name": "req_fqdn"
+        },
+        {
+          "name": "req_httpv"
+        },
+        {
+          "name": "req_line"
+        },
+        {
+          "name": "req_method"
+        },
+        {
+          "name": "req_path"
+        },
+        {
+          "name": "req_query"
+        },
+        {
+          "name": "server_city"
+        },
+        {
+          "name": "server_country_code"
+        },
+        {
+          "name": "server_country_name"
+        },
+        {
+          "name": "server_ip"
+        },
+        {
+          "name": "server_latitude"
+        },
+        {
+          "name": "server_longitude"
+        },
+        {
+          "name": "server_region_name"
+        },
+        {
+          "name": "server_time_zone"
+        },
+        {
+          "name": "src_ip"
+        },
+        {
+          "name": "status_code"
+        },
+        {
+          "name": "time"
+        },
+        {
+          "name": "ua_browser"
+        },
+        {
+          "name": "ua_os"
+        },
+        {
+          "name": "user_agent"
+        },
+        {
+          "name": "virus_name"
+        }
+      ]
+    }
+  ]
+}

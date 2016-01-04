@@ -1,0 +1,1187 @@
+{
+  "dimensionSets": [
+    {
+      "name": "addc",
+      "dimensions": [
+        {
+          "name": "id"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "logoff"
+        },
+        {
+          "name": "logon"
+        },
+        {
+          "name": "action"
+        },
+        {
+          "name": "datetime"
+        },
+        {
+          "name": "userid"
+        }
+      ]
+    },
+    {
+      "name": "agg",
+      "dimensions": [
+        {
+          "name": "protocol"
+        },
+        {
+          "name": "city"
+        },
+        {
+          "name": "country_code"
+        },
+        {
+          "name": "country"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "latitude"
+        },
+        {
+          "name": "longitude"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "region"
+        },
+        {
+          "name": "time_zone"
+        },
+        {
+          "name": "ether"
+        },
+        {
+          "name": "flowkey"
+        },
+        {
+          "name": "fragment"
+        },
+        {
+          "name": "icmp_code"
+        },
+        {
+          "name": "icmp_type"
+        },
+        {
+          "name": "octets"
+        },
+        {
+          "name": "packets"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "agg5m",
+      "dimensions": [
+        {
+          "name": "protocol"
+        },
+        {
+          "name": "city"
+        },
+        {
+          "name": "country_code"
+        },
+        {
+          "name": "country"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "latitude"
+        },
+        {
+          "name": "longitude"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "region"
+        },
+        {
+          "name": "time_zone"
+        },
+        {
+          "name": "ether"
+        },
+        {
+          "name": "flowkey"
+        },
+        {
+          "name": "fragment"
+        },
+        {
+          "name": "icmp_code"
+        },
+        {
+          "name": "icmp_type"
+        },
+        {
+          "name": "octets"
+        },
+        {
+          "name": "packets"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "dhcp",
+      "dimensions": [
+        {
+          "name": "action"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "dynnac",
+      "dimensions": [
+        {
+          "name": "id"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "action"
+        },
+        {
+          "name": "packets"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "room"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "key"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "datetime"
+        },
+        {
+          "name": "userid"
+        }
+      ]
+    },
+    {
+      "name": "nac",
+      "dimensions": [
+        {
+          "name": "bytes"
+        },
+        {
+          "name": "datetime"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "name": "nessus",
+      "dimensions": [
+        {
+          "name": "cve"
+        },
+        {
+          "name": "fqdn"
+        },
+        {
+          "name": "os"
+        },
+        {
+          "name": "class"
+        },
+        {
+          "name": "severity"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "netflow",
+      "dimensions": [
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "id"
+        },
+        {
+          "name": "latitude"
+        },
+        {
+          "name": "longitude"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "class"
+        },
+        {
+          "name": "bytes"
+        },
+        {
+          "name": "packets"
+        },
+        {
+          "name": "protocol"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "splunk-accellion",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-addc",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-atc-dns",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-av",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "os"
+        },
+        {
+          "name": "os_build"
+        },
+        {
+          "name": "os_version"
+        },
+        {
+          "name": "severity"
+        },
+        {
+          "name": "userid"
+        }
+      ]
+    },
+    {
+      "name": "splunk-bacs",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-bes",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-bit9",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "class"
+        },
+        {
+          "name": "filename"
+        },
+        {
+          "name": "action"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "process"
+        },
+        {
+          "name": "userid"
+        }
+      ]
+    },
+    {
+      "name": "splunk-cisco",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "action"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "protocol"
+        }
+      ]
+    },
+    {
+      "name": "splunk-dev",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-devaddc",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-devbit9",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-devllencrypt",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-devsmtp",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-dhcp",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-dib",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-div4",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-dns",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "domain"
+        },
+        {
+          "name": "fqdn"
+        },
+        {
+          "name": "port"
+        }
+      ]
+    },
+    {
+      "name": "splunk-esx",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-exchange",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-extweb",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "bytes"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "filename"
+        },
+        {
+          "name": "http_method"
+        },
+        {
+          "name": "directory"
+        },
+        {
+          "name": "http_status_code"
+        },
+        {
+          "name": "urlpath"
+        },
+        {
+          "name": "user_agent"
+        }
+      ]
+    },
+    {
+      "name": "splunk-fe",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-fireeye",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-fschange",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-ftp",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-g46",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-g52",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-grp43",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-history",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-idm",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-ips",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-iptables",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-kiosk",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-kmr",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-len-d10",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-len-fw",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-llan-fw",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-llencrypt",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-lllistserv",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-llrsa_summary",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-llsmtp_summary1",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-llvirus_summary",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-llwww",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-mad",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-main",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-nac",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-nagios",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-nvd",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-nw",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-nw-summary",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-os",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-pan-fw",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "zone"
+        },
+        {
+          "name": "protocol"
+        }
+      ]
+    },
+    {
+      "name": "splunk-pastemon",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-pki",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "fqdn"
+        },
+        {
+          "name": "url"
+        },
+        {
+          "name": "ipv4"
+        }
+      ]
+    },
+    {
+      "name": "splunk-qapki",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-remedy",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-router",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-rsa",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-rsa_summary",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-seccenter",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-slb",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-smtp",
+      "dimensions": [
+        {
+          "name": "command"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "message_subject"
+        },
+        {
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "name": "splunk-sos",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-spam",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-ssdfac",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-sshlogs",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-strm",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-summary",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-summary_fw",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-summary_ww",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-suricata",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-switches",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-syslog",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-timeline",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-tstorm",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-va",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-voip",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "splunk-vpn",
+      "dimensions": [
+        {
+          "name": "time"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "userid"
+        }
+      ]
+    },
+    {
+      "name": "splunk-webwasher",
+      "dimensions": [
+        {
+          "name": "time"
+        }
+      ]
+    },
+    {
+      "name": "suricata",
+      "dimensions": [
+        {
+          "name": "class"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "port"
+        },
+        {
+          "name": "severity"
+        },
+        {
+          "name": "protocol"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "usersession",
+      "dimensions": [
+        {
+          "name": "userid"
+        },
+        {
+          "name": "event"
+        },
+        {
+          "name": "id"
+        },
+        {
+          "name": "hostname"
+        },
+        {
+          "name": "key"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "datetime"
+        }
+      ]
+    },
+    {
+      "name": "webwasher",
+      "dimensions": [
+        {
+          "name": "userid"
+        },
+        {
+          "name": "application"
+        },
+        {
+          "name": "class"
+        },
+        {
+          "name": "bytes"
+        },
+        {
+          "name": "category"
+        },
+        {
+          "name": "mac"
+        },
+        {
+          "name": "filetype"
+        },
+        {
+          "name": "url"
+        },
+        {
+          "name": "domain"
+        },
+        {
+          "name": "fqdn"
+        },
+        {
+          "name": "urlpath"
+        },
+        {
+          "name": "http_method"
+        },
+        {
+          "name": "city"
+        },
+        {
+          "name": "country_code"
+        },
+        {
+          "name": "country"
+        },
+        {
+          "name": "ipv4"
+        },
+        {
+          "name": "latitude"
+        },
+        {
+          "name": "longitude"
+        },
+        {
+          "name": "region"
+        },
+        {
+          "name": "time_zone"
+        },
+        {
+          "name": "http_status_code"
+        },
+        {
+          "name": "datetime"
+        },
+        {
+          "name": "browser"
+        },
+        {
+          "name": "os"
+        },
+        {
+          "name": "user_agent"
+        }
+      ]
+    }
+  ]
+}

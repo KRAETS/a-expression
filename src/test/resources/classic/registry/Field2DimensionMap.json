@@ -1,0 +1,1805 @@
+{
+  "f2dmap": [
+    {
+      "table": "llcysa_addc",
+      "field": "account_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "client_address",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "computername"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "eventcode"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "eventtype"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "keywords"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "logname"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "logoff",
+      "dimension": "logoff"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "logon",
+      "dimension": "logon"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "logon_id",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "message"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "opcode"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "recordnumber"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "security_id",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "service_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "source_network_address",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "sourcename"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "taskcategory",
+      "dimension": "action"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "type"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "agg_type"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dnp",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_city",
+      "dimension": "city"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_code",
+      "dimension": "country_code"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_name",
+      "dimension": "country"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_region_name",
+      "dimension": "region"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_time_zone",
+      "dimension": "time_zone"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "eth_code",
+      "dimension": "ether"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "file"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "flow",
+      "dimension": "flowkey"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "fragment",
+      "dimension": "fragment"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "icmp_code",
+      "dimension": "icmp_code"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "icmp_code_name",
+      "dimension": "icmp_code"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "icmp_type",
+      "dimension": "icmp_type"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "icmp_type_name",
+      "dimension": "icmp_type"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "keys"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "np",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "np_long",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "octets",
+      "dimension": "octets"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "packets",
+      "dimension": "packets"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "pl_octets",
+      "dimension": "octets"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_city",
+      "dimension": "city"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_code",
+      "dimension": "country_code"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_name",
+      "dimension": "country"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_region_name",
+      "dimension": "region"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_time_zone",
+      "dimension": "time_zone"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "agg_type"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dnp",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_city",
+      "dimension": "city"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_code",
+      "dimension": "country_code"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_name",
+      "dimension": "country"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_region_name",
+      "dimension": "region"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_time_zone",
+      "dimension": "time_zone"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "eth_code",
+      "dimension": "ether"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "file"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "flow",
+      "dimension": "flowkey"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "fragment",
+      "dimension": "fragment"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "icmp_code",
+      "dimension": "icmp_code"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "icmp_code_name",
+      "dimension": "icmp_code"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "icmp_type",
+      "dimension": "icmp_type"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "icmp_type_name",
+      "dimension": "icmp_type"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "keys"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "np",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "np_long",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "octets",
+      "dimension": "octets"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "packets",
+      "dimension": "packets"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "pl_octets",
+      "dimension": "octets"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_city",
+      "dimension": "city"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_code",
+      "dimension": "country_code"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_name",
+      "dimension": "country"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_region_name",
+      "dimension": "region"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_time_zone",
+      "dimension": "time_zone"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "dhcp_command",
+      "dimension": "action"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_hostname",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "fullname",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "hostname",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "jack_id",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "message"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "nac_type",
+      "dimension": "action"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "packetsIn",
+      "dimension": "packets"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "packetsOut",
+      "dimension": "packets"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "plate_id",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port_num",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port_slot",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "room",
+      "dimension": "room"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "root_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "session_pair",
+      "dimension": "key"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "snmp_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "user",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "bytes_in",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "bytes_out",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "connect",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "disconnect",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "load_in"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "load_out"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "location"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "peak_load_in"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "peak_load_out"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "user",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "cve",
+      "dimension": "cve"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "host_fqdn",
+      "dimension": "fqdn"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "operating_system",
+      "dimension": "os"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "pluginName",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "risk_factor",
+      "dimension": "severity"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "severity",
+      "dimension": "severity"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "start_time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "vuln_publication_date",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_city",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_country_code",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_country_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_region_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_time_zone",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "dp",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "flg",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ibyt",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ipkt",
+      "dimension": "packets"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "obyt",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "opkt",
+      "dimension": "packets"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "pr",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_city",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_country_code",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_country_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_region_name",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_time_zone",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sp",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "te",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ts",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_splunk_accellion",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_addc",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_atc_dns",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "dest_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "dest_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "dest_nt_host",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "os",
+      "dimension": "os"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "os_build",
+      "dimension": "os_build"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "os_version",
+      "dimension": "os_version"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "severity",
+      "dimension": "severity"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_nt_host",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_user",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_splunk_bacs",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_bes",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "cat",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "fileName",
+      "dimension": "filename"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "policy",
+      "dimension": "action"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "src",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "srcHostName",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "srcProcess",
+      "dimension": "process"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "usrName",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "action",
+      "dimension": "action"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "dest_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "dest_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "protocol",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "src_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_splunk_dev",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_devaddc",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_devbit9",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_devllencrypt",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_devsmtp",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_dhcp",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_dib",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_div4",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "dns_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "domain",
+      "dimension": "domain"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "fqdn",
+      "dimension": "fqdn"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "resolved_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_esx",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_exchange",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "bytes",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "clientip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "file",
+      "dimension": "filename"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "method",
+      "dimension": "http_method"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "referer"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "root",
+      "dimension": "directory"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "status",
+      "dimension": "http_status_code"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "uri_path",
+      "dimension": "urlpath"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "useragent",
+      "dimension": "user_agent"
+    },
+    {
+      "table": "llcysa_splunk_fe",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_fireeye",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_fschange",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_ftp",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_g46",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_g52",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_grp43",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_history",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_idm",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_ips",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_iptables",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_kiosk",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_kmr",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_len_d10",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_len_fw",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_llan_fw",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_llencrypt",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_lllistserv",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_llrsa_summary",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_llsmtp_summary1",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_llvirus_summary",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_llwww",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_mad",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_main",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_nac",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_nagios",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_nvd",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_nw",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_nw_summary",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_os",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "dst_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "dst_zone",
+      "dimension": "zone"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "nat_dst_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "nat_src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "proto",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "src_interface"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "src_zone",
+      "dimension": "zone"
+    },
+    {
+      "table": "llcysa_splunk_pastemon",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "host",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "hostname",
+      "dimension": "fqdn"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "request_url",
+      "dimension": "url"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_qapki",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_remedy",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_router",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_rsa",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_rsa_summary",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_seccenter",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_slb",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_smtp",
+      "field": "cmd",
+      "dimension": "command"
+    },
+    {
+      "table": "llcysa_splunk_smtp",
+      "field": "ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_smtp",
+      "field": "subject",
+      "dimension": "message_subject"
+    },
+    {
+      "table": "llcysa_splunk_smtp",
+      "field": "value",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_splunk_sos",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_spam",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_ssdfac",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_sshlogs",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_strm",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_summary",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_summary_fw",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_summary_ww",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_suricata",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_switches",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_syslog",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_timeline",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_tstorm",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_va",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_voip",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "host",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "hostname",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "remote_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "user_name",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_splunk_webwasher",
+      "field": "_time",
+      "dimension": "time"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "class",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "dest_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "dest_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "message"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "policy_id",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "policy_message",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "policy_tag",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "priority",
+      "dimension": "severity"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "protocol",
+      "dimension": "protocol"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "src_port",
+      "dimension": "port"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "account",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "event_type",
+      "dimension": "event"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "fullname",
+      "dimension": "id"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "hostname",
+      "dimension": "hostname"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "prov",
+      "dimension": "key"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "remote_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "src_mac",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "addc_user",
+      "dimension": "userid"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "application_name",
+      "dimension": "application"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "auth_user"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "block_res",
+      "dimension": "class"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "block_res_detail"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "bytes_from_client",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "bytes_to_client",
+      "dimension": "bytes"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "categories",
+      "dimension": "category"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "elapsed"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "mac_dhcp",
+      "dimension": "mac"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "media_type",
+      "dimension": "filetype"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_bareurl",
+      "dimension": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_domain",
+      "dimension": "domain"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_fqdn",
+      "dimension": "fqdn"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_path",
+      "dimension": "urlpath"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_query"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_bareurl",
+      "dimension": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_domain",
+      "dimension": "domain"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_fqdn",
+      "dimension": "fqdn"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_httpv"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_line"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_method",
+      "dimension": "http_method"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_path",
+      "dimension": "urlpath"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_query"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_city",
+      "dimension": "city"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_code",
+      "dimension": "country_code"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_name",
+      "dimension": "country"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_latitude",
+      "dimension": "latitude"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_longitude",
+      "dimension": "longitude"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_region_name",
+      "dimension": "region"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_time_zone",
+      "dimension": "time_zone"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "src_ip",
+      "dimension": "ipv4"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "status_code",
+      "dimension": "http_status_code"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "time",
+      "dimension": "datetime"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "ua_browser",
+      "dimension": "browser"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "ua_os",
+      "dimension": "os"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "user_agent",
+      "dimension": "user_agent"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "virus_name"
+    }
+  ]
+}

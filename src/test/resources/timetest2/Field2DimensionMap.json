@@ -1,0 +1,26 @@
+{
+"f2dmap":
+        [
+          		{
+ 	                "table" : "EventTable1",
+ 	                "field": "f1",
+                    "dimension": "d1"
+  				},
+  				{  "table" : "EventTable1",
+ 	                "field": "f2",
+                    "dimension": "d2"
+  				},
+  				{  "table" : "EventTable2",
+ 	                "field": "f3",
+                    "dimension": "d1"
+  				},
+  				{  "table" : "EventTable2",
+ 	                "field": "f4",
+                    "dimension": "d3"
+  				},
+  				{  "table" : "EventTable2",
+ 	                "field": "f5",
+                    "dimension": "d3"
+  				}
+  		]		
+}

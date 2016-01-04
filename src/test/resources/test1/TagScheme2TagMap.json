@@ -1,0 +1,13 @@
+{
+"tagSchemes" :
+        [
+          		{
+ 	       			"name": "ts1",
+                    "tags":  [ {"name": "t1"},{"name":"t2"}, {"name":"t3"} ]
+  				} ,
+  				{
+ 	             	"name": "ts2",
+ 	                "tags" : [ {"name": "t1"}, {"name":"t2"}, {"name":"t3"}]
+  				}
+  		]		
+}

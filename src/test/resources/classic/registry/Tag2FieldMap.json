@@ -1,0 +1,2200 @@
+{
+  "tag2fieldItems": [
+    {
+      "table": "llcysa_addc",
+      "field": "account_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "account_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "host"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "account_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "client_address",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "client_address",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "logon_id",
+      "tagScheme": "LLCYSA0",
+      "tag": "logoff"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "logon_id",
+      "tagScheme": "LLCYSA1",
+      "tag": "logon"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "security_id",
+      "tagScheme": "LLCYSA0",
+      "tag": "security"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "service_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "host"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "service_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "service_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "source_network_address",
+      "tagScheme": "LLCYSA0",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "source_network_address",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "taskcategory",
+      "tagScheme": "LLCYSA0",
+      "tag": "logoff"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "taskcategory",
+      "tagScheme": "LLCYSA1",
+      "tag": "logon"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user",
+      "tagScheme": "LLCYSA1",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user",
+      "tagScheme": "LLCYSA2",
+      "tag": "name"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user",
+      "tagScheme": "LLCYSA3",
+      "tag": "host"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_addc",
+      "field": "user_ip",
+      "tagScheme": "LLCYSA2",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dnp",
+      "tagScheme": "LLCYSA0",
+      "tag": "decimal"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "city"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_city",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_code",
+      "tagScheme": "LLCYSA2",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_country_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_latitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_longitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "region"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_region_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "timezone"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "dst_time_zone",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "file",
+      "tagScheme": "LLCYSA0",
+      "tag": "provenance"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "keys",
+      "tagScheme": "LLCYSA0",
+      "tag": "provenance"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "np",
+      "tagScheme": "LLCYSA0",
+      "tag": "string"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "np",
+      "tagScheme": "LLCYSA1",
+      "tag": "keyword"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "np_long",
+      "tagScheme": "LLCYSA0",
+      "tag": "string"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "np_long",
+      "tagScheme": "LLCYSA1",
+      "tag": "longform"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "octets",
+      "tagScheme": "LLCYSA0",
+      "tag": "total"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "pl_octets",
+      "tagScheme": "LLCYSA0",
+      "tag": "payload"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "city"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_city",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_code",
+      "tagScheme": "LLCYSA2",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_country_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_latitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_longitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "region"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_region_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "timezone"
+    },
+    {
+      "table": "llcysa_agg",
+      "field": "src_time_zone",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dnp",
+      "tagScheme": "LLCYSA0",
+      "tag": "decimal"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "city"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_city",
+      "tagScheme": "LLCYSA2",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_code",
+      "tagScheme": "LLCYSA2",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_country_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_latitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_longitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "region"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_region_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "dst_time_zone",
+      "tagScheme": "LLCYSA2",
+      "tag": "timezone"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "file",
+      "tagScheme": "LLCYSA0",
+      "tag": "provenance"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "keys",
+      "tagScheme": "LLCYSA0",
+      "tag": "provenance"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "np",
+      "tagScheme": "LLCYSA0",
+      "tag": "string"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "np",
+      "tagScheme": "LLCYSA1",
+      "tag": "keyword"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "np_long",
+      "tagScheme": "LLCYSA0",
+      "tag": "string"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "np_long",
+      "tagScheme": "LLCYSA1",
+      "tag": "longform"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "octets",
+      "tagScheme": "LLCYSA0",
+      "tag": "total"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "pl_octets",
+      "tagScheme": "LLCYSA0",
+      "tag": "payload"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "city"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_city",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_code",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_country_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_latitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_longitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_region_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "region"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "timezone"
+    },
+    {
+      "table": "llcysa_agg5m",
+      "field": "src_time_zone",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_hostname",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_dhcp",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "fullname",
+      "tagScheme": "LLCYSA0",
+      "tag": "name"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "fullname",
+      "tagScheme": "LLCYSA1",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "jack_id",
+      "tagScheme": "LLCYSA0",
+      "tag": "connection"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "jack_id",
+      "tagScheme": "LLCYSA1",
+      "tag": "jack"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "nac_type",
+      "tagScheme": "LLCYSA0",
+      "tag": "connection"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "packetsIn",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "packetsOut",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "plate_id",
+      "tagScheme": "LLCYSA0",
+      "tag": "connection"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "plate_id",
+      "tagScheme": "LLCYSA1",
+      "tag": "plate"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port_num",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port_slot",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "port_slot",
+      "tagScheme": "LLCYSA1",
+      "tag": "slot"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "room",
+      "tagScheme": "LLCYSA0",
+      "tag": "connection"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "root_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "primary"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "root_mac",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "session_pair",
+      "tagScheme": "LLCYSA0",
+      "tag": "provenance"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "snmp_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "user",
+      "tagScheme": "LLCYSA0",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_dynnac",
+      "field": "user",
+      "tagScheme": "LLCYSA1",
+      "tag": "name"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "bytes_in",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "bytes_out",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "location",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "user",
+      "tagScheme": "LLCYSA0",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_nac",
+      "field": "user",
+      "tagScheme": "LLCYSA1",
+      "tag": "name"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "cve",
+      "tagScheme": "LLCYSA0",
+      "tag": "risk"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "host_fqdn",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "operating_system",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_nessus",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "da_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "dp",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "dp",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "flg",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "flg",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "flg",
+      "tagScheme": "LLCYSA2",
+      "tag": "protocol"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ibyt",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ibyt",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ipkt",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "ipkt",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "obyt",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "obyt",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "opkt",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "opkt",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "pr",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "pr",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "pr",
+      "tagScheme": "LLCYSA2",
+      "tag": "protocol"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sa_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sp",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_netflow",
+      "field": "sp",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "dest_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "dest_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "dest_nt_host",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA2",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_nt_host",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_av",
+      "field": "src_user",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "src",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "src",
+      "tagScheme": "LLCYSA1",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "srcHostName",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_bit9",
+      "field": "srcProcess",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "dest_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "dest_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_cisco",
+      "field": "src_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "dns_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "dns_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "server"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "dns_ip",
+      "tagScheme": "LLCYSA2",
+      "tag": "service"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "domain",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "fqdn",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_dns",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_splunk_extweb",
+      "field": "clientip",
+      "tagScheme": "LLCYSA0",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "dst_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "dst_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "nat_dst_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "nat_src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "src_interface",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_pan_fw",
+      "field": "src_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "hostname",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "hostname",
+      "tagScheme": "LLCYSA1",
+      "tag": "host"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "request_url",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_pki",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "host",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "host",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "remote_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "remote_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "remote"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "remote_ip",
+      "tagScheme": "LLCYSA2",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA2",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_splunk_vpn",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "dest_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "dest_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_suricata",
+      "field": "src_port",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "account",
+      "tagScheme": "LLCYSA0",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "account",
+      "tagScheme": "LLCYSA1",
+      "tag": "name"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "fullname",
+      "tagScheme": "LLCYSA0",
+      "tag": "user"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "fullname",
+      "tagScheme": "LLCYSA1",
+      "tag": "name"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "hostname",
+      "tagScheme": "LLCYSA0",
+      "tag": "host"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "prov",
+      "tagScheme": "LLCYSA0",
+      "tag": "provenance"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "remote_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "remote_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "remote"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_usersession",
+      "field": "src_mac",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "addc_user",
+      "tagScheme": "LLCYSA0",
+      "tag": "derived"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "addc_user",
+      "tagScheme": "LLCYSA1",
+      "tag": "host"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "addc_user",
+      "tagScheme": "LLCYSA2",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "bytes_from_client",
+      "tagScheme": "LLCYSA0",
+      "tag": "content"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "bytes_from_client",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "bytes_to_client",
+      "tagScheme": "LLCYSA0",
+      "tag": "content"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "bytes_to_client",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "categories",
+      "tagScheme": "LLCYSA0",
+      "tag": "content"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "mac_dhcp",
+      "tagScheme": "LLCYSA0",
+      "tag": "derived"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "mac_dhcp",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "media_type",
+      "tagScheme": "LLCYSA0",
+      "tag": "content"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer",
+      "tagScheme": "LLCYSA1",
+      "tag": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer",
+      "tagScheme": "LLCYSA2",
+      "tag": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_bareurl",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_bareurl",
+      "tagScheme": "LLCYSA1",
+      "tag": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_bareurl",
+      "tagScheme": "LLCYSA2",
+      "tag": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_domain",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_domain",
+      "tagScheme": "LLCYSA1",
+      "tag": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_domain",
+      "tagScheme": "LLCYSA2",
+      "tag": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_fqdn",
+      "tagScheme": "LLCYSA0",
+      "tag": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_fqdn",
+      "tagScheme": "LLCYSA1",
+      "tag": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_fqdn",
+      "tagScheme": "LLCYSA2",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_path",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_path",
+      "tagScheme": "LLCYSA1",
+      "tag": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_path",
+      "tagScheme": "LLCYSA2",
+      "tag": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_query",
+      "tagScheme": "LLCYSA0",
+      "tag": "source"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_query",
+      "tagScheme": "LLCYSA1",
+      "tag": "url"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_query",
+      "tagScheme": "LLCYSA2",
+      "tag": "referer"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "referer_query",
+      "tagScheme": "LLCYSA3",
+      "tag": "query"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_bareurl",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_bareurl",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_domain",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_domain",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_fqdn",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_fqdn",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_httpv",
+      "tagScheme": "LLCYSA0",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_httpv",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_line",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_line",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_method",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_method",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_path",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_path",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_query",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_query",
+      "tagScheme": "LLCYSA1",
+      "tag": "request"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "req_query",
+      "tagScheme": "LLCYSA2",
+      "tag": "query"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_city",
+      "tagScheme": "LLCYSA0",
+      "tag": "city"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_city",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_city",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_city",
+      "tagScheme": "LLCYSA3",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_code",
+      "tagScheme": "LLCYSA0",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_code",
+      "tagScheme": "LLCYSA1",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_code",
+      "tagScheme": "LLCYSA2",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_code",
+      "tagScheme": "LLCYSA3",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_country_name",
+      "tagScheme": "LLCYSA3",
+      "tag": "country"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_latitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_latitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latitude"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_latitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_latitude",
+      "tagScheme": "LLCYSA3",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_latitude",
+      "tagScheme": "LLCYSA4",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_longitude",
+      "tagScheme": "LLCYSA0",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_longitude",
+      "tagScheme": "LLCYSA1",
+      "tag": "latlong"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_longitude",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_longitude",
+      "tagScheme": "LLCYSA3",
+      "tag": "longitude"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_longitude",
+      "tagScheme": "LLCYSA4",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_region_name",
+      "tagScheme": "LLCYSA0",
+      "tag": "region"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_region_name",
+      "tagScheme": "LLCYSA1",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_region_name",
+      "tagScheme": "LLCYSA2",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_region_name",
+      "tagScheme": "LLCYSA3",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_time_zone",
+      "tagScheme": "LLCYSA0",
+      "tag": "external"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_time_zone",
+      "tagScheme": "LLCYSA1",
+      "tag": "dest"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_time_zone",
+      "tagScheme": "LLCYSA2",
+      "tag": "timezone"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "server_time_zone",
+      "tagScheme": "LLCYSA3",
+      "tag": "geo"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA0",
+      "tag": "internal"
+    },
+    {
+      "table": "llcysa_webwasher",
+      "field": "src_ip",
+      "tagScheme": "LLCYSA1",
+      "tag": "source"
+    }
+  ]
+}
