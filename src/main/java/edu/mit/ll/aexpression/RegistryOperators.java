@@ -160,6 +160,8 @@ public class RegistryOperators {
 		List<Field> fields = new ArrayList<Field>();
 	
 		for (Field f : in_fields) {
+			if(f.getTags()==null)
+				continue;
 			for (Tag tg : f.getTags()) {
 				// System.out.println("field " + f.getName()+ " TagScheme: "
 				// + tg.getTs().getName()+ "--Tags " + tg.getName());
