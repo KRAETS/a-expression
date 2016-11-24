@@ -39,7 +39,6 @@ public class Period {
 	}
 
     public long getTimeLongVal( String dateTimeString ) {
-        @SuppressWarnings("restriction")
 		java.util.Calendar cal = DatatypeConverter.parseDateTime(dateTimeString);
         long longval = cal.getTimeInMillis();
         return longval;
